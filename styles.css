@@ -1,0 +1,66 @@
+body{
+    height: 600px;
+    width: auto;
+}
+
+#maindiv{
+position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;  
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 10px;
+}
+
+header .marginleft{
+    margin-left: auto;
+}
+
+#google-footer{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    position: fixed;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Gcolor{
+    background-color: rgb(92, 86, 86);
+}
+
+#google-logo{
+    width: 300px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+#login-btn{
+    color: white;
+    background-color: rgb(42, 42, 199);
+    }
+
+
+#dotsquare{
+    width: 30px;    
+    }
+
+a{
+        color: black;
+}
+
+.Gbtn{
+    background-color: rgb(241, 231, 231);
+    border: transparent;
+
+}
